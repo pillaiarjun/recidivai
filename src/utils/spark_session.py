@@ -1,7 +1,7 @@
 import os
 from pyspark.sql import SparkSession
 def get_spark():
-    os.environ['JAVA_HOME'] = '/opt/homebrew/Cellar/openjdk@17/17.0.18/libexec/openjdk.jdk/Contents/Home'
+    os.environ['JAVA_HOME'] = '/opt/homebrew/opt/openjdk@17'
 
     spark = (
         SparkSession.builder
